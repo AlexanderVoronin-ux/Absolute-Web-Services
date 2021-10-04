@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Absolute Web Services</title>
+  <!-- <link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="libs/@fortawesome/fontawesome-free/css/all.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="container">
+
+        <div class="header-navbar__btn">
+          <span class="header-navbar__btn-row"></span>
+          <span class="header-navbar__btn-row"></span>
+          <span class="header-navbar__btn-row"></span>
+        </div>
+
+        <div class="header-logo">
+          <img class="image-logo" src="assets/img/logo.png" alt="logo">
+        </div>
+        <div class="header-search">
+          <form action="search" class="search">
+            <div class="input-group input-group-lg float-right">
+              <input class="search form-control" type="search" placeholder="Search">
+              <span class="input-group-btn">
+                <button class="btn btn-primary">
+                  <i class="fa fa-search" style="font-size: 18px;"></i>
+                </button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-light bg-light" id="myNavbar">
+      <div class="container-fluid justify-content-center">
+        <ul class="nav navbar-nav">
+          <li class="navbar-nav__item active"><a href="#">HOME</a></li>
+          <li class="navbar-nav__item"><a href="page.html">SERVICES</a></li>
+          <li class="navbar-nav__item"><a href="#">PORTFOLIO</a></li>
+          <li class="navbar-nav__item"><a href="#">GALLERY</a></li>
+          <li class="navbar-nav__item"><a href="#">HELP & FAQ</a></li>
+          <li class="navbar-nav__item"><a href="#">ABOUT</a></li>
+          <li class="navbar-nav__item"><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <div class="main">
+      <div class="buttons">
+        <h1 class="buttons-title">Buttons</h1>
+      </div>
+      <div class="buttons-container">
+        <div class="buttons-items">
+          <button id="buttons" type="button" class="btn btn-primary">PRIMARY</button>
+          <button id="buttons" type="button" class="btn btn-outline-primary">DEFAULT</button>
+          <button id="buttons" type="button" class="btn btn-success">SUCCESS</button>
+          <button id="buttons" type="button" class="btn btn-info" style="color: #f4f5f7;">INFO</button>
+          <button id="buttons" type="button" class="btn btn-warning"
+            style="color: #f4f5f7; background-color: #f49a9e; border: none">WARNING</button>
+          <button id="buttons" type="button" class="btn btn-danger">DANGER</button>
+        </div>
+      </div>
+      <div class="inputs">
+        <h1 class="inputs-title">Inputs</h1>
+      </div>
+      <div class="inputs-container">
+        <div class="inputs-items">
+          <div class="inputs-item">
+            <div class="form-check">
+              <input class="form-check-input custom-control-input" type="checkbox" value="" id="flexCheckChecked"
+                checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                <span class="active">Checkbox Active</span>
+                <span class="notActive">Checkbox</span>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input custom-control-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                <span class="notActive">Checkbox</span>
+                <span class="active">Checkbox Active</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="inputs-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                <span class="active">Radio Active</span>
+                <span class="notActive">Radio</span>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                <span class="notActive">Radio</span>
+                <span class="active">Radio Active</span>
+              </label>
+            </div>
+
+          </div>
+
+          <div class="inputs-item">
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+              <label class="form-check-label" for="flexSwitchCheckChecked">
+                <span class="active">Switcher ON</span>
+                <span class="notActive">Switcher OFF</span>
+              </label>
+            </div>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+              <label class="form-check-label" for="flexSwitchCheckDefault">
+                <span class="notActive">Switcher OFF</span>
+                <span class="active">Switcher ON</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="star-rating">
+        <div>
+          <h1 class="star-rating__title">Star rating</h1>
+        </div>
+        <div class="show-rating">
+          <div class="show-rating__body">
+            <div class="show-rating__active"></div>
+            <div class="show-rating__items">
+              <input type="radio" class="show-rating__item" name="show-rating" value="1">
+              <input type="radio" class="show-rating__item" name="show-rating" value="2">
+              <input type="radio" class="show-rating__item" name="show-rating" value="3">
+              <input type="radio" class="show-rating__item" name="show-rating" value="4">
+              <input type="radio" class="show-rating__item" name="show-rating" value="5">
+            </div>
+          </div>
+          <div class="show-rating__value">3.5</div>
+        </div>
+
+        <div class="check-rating">
+          <div class="check-rating__items">
+            <input type="radio" class="check-rating__item" name="check-rating" value="1">
+            <input type="radio" class="check-rating__item" name="check-rating" value="2">
+            <input type="radio" class="check-rating__item" checked name="check-rating" value="3">
+            <input type="radio" class="check-rating__item" name="check-rating" value="4">
+            <input type="radio" class="check-rating__item" name="check-rating" value="5">
+          </div>
+          <div class="check-rating__title">Check rating</div>
+        </div>
+
+      </div>
+
+
+      <div class="emotions">
+        <h2 class="t">Carousel</h2>
+        <div class="slider show">
+          <img class="port" src="assets/img/slides-fotos/otziv1.png" />
+          <div class="te">
+            <p class="te__description">When I started, I weighed over 425 pounds. What matters is that you take the
+              steps and focus on making
+              one good choice at a time.</p>
+            <h2 class="te_head">CHEWBACCA</h2>
+            <p class="te__date">July 2017</p>
+          </div>
+        </div>
+        <div class="slider">
+          <img class="port" src="assets/img/slides-fotos/otziv2.png" />
+          <div class="te">
+            <p class="te__description">1 When I started, I weighed over 425 pounds. What matters is that you take the
+              steps and focus on making
+              one good choice at a time.</p>
+            <h2 class="te_head">CHEWBACCA</h2>
+            <p class="te__date">July 2017</p>
+          </div>
+        </div>
+        <div class="slider">
+          <img class="port" src="assets/img/slides-fotos/otziv3.png" />
+          <div class="te">
+            <p class="te__description">2 When I started, I weighed over 425 pounds. What matters is that you take the
+              steps and focus on making
+              one good choice at a time.</p>
+            <h2 class="te_head">CHEWBACCA</h2>
+            <p class="te__date">July 2017</p>
+          </div>
+        </div>
+        <div class="slider">
+          <img class="port" src="assets/img/slides-fotos/otziv4.png" />
+          <div class="te">
+            <p class="te__description">3 When I started, I weighed over 425 pounds. What matters is that you take the
+              steps and focus on making
+              one good choice at a time.</p>
+            <h2 class="te_head">CHEWBACCA</h2>
+            <p class="te__date">July 2017</p>
+          </div>
+        </div>
+        <p class="counter">
+          <img class="emotion-number active pointer" data-counter="0" src="" />
+          <img class="emotion-number pointer" data-counter="1" src="" />
+          <img class="emotion-number pointer" data-counter="2" src="" />
+          <img class="emotion-number pointer" data-counter="3" src="" />
+        </p>
+        <a title="Title" class="back-go go" href="#">
+          <svg class="back__svg" xmlns="http://www.w3.org/2000/svg" width="8.313" height="15" viewBox="0 0 8.313 15">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #5e5d5c;
+                  fill-rule: evenodd;
+                }
+              </style>
+            </defs>
+            <path id="Next" class="cls-1"
+              d="M544.314,1144.33l-1.586,1.67L536,1138.92l1.586-1.67,6.728,7.08M536,1138.08l1.586,1.67,6.728-7.08-1.586-1.67L536,1138.08"
+              transform="translate(-536 -1131)" />
+          </svg>
+
+        </a>
+        <a title="Title" class="forward-go go" href="#">
+          <svg class="back__svg" xmlns="http://www.w3.org/2000/svg" width="8.31" height="15" viewBox="0 0 8.31 15">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #0049b0;
+                  fill-rule: evenodd;
+                }
+              </style>
+            </defs>
+            <path id="Prev" class="cls-1"
+              d="M1374.69,1144.33l1.58,1.67,6.73-7.08-1.59-1.67-6.72,7.08m8.31-6.25-1.59,1.67-6.72-7.08,1.58-1.67,6.73,7.08"
+              transform="translate(-1374.69 -1131)" />
+          </svg>
+
+        </a>
+      </div>
+
+      <div class="map">
+        <div class="container-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1633262333827!5m2!1sru!2sua"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+
+
+
+    </div> --> -->
+    <div class="push"></div>
+  </div>
+  <div class="footer">
+    <div class="container-footer">
+      <div class="footer-top">
+
+        <div id="1" class="footer-item">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#">Browse By Holidays</a></li>
+            <li><a href="#">Browse By Brand</a></li>
+            <li><a href="#">Gift of the month Clubs</a></li>
+            <li><a href="#">Customise Bottles</a></li>
+            <li><a href="#">Corporate Gifts</a></li>
+          </ul>
+        </div>
+        <div id="2" class="footer-item">
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">About Spirited Gifts</a></li>
+            <li><a href="#">Read Our Blog</a></li>
+            <li><a href="#">Abouy Our Selection</a></li>
+            <li><a href="#">Read Our Reviews</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+          </ul>
+        </div>
+        <div id="3" class="footer-item">
+          <h4>More</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Retailer Network</a></li>
+            <li><a href="#">Help & FAQs</a></li>
+            <li><a href="#">Scholarship</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div id="4" class="footer-item">
+          <h4>Follow us</h4>
+          <ul class="icons-link">
+            <li><a href="#">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li><a href="#">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+            </li>
+            <li><a href="#">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li><a href="#">
+                <i class="fab fa-pinterest-square"></i>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p><a href="#">Разработка - Воронин Александр</a></p>
+    </div>
+  </div>
+
+  <script src="libs/jquery/dist/jquery.min.js"></script>
+  <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/sticky-navbar.js"></script>
+</body>
+
+</html>

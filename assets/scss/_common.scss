@@ -1,0 +1,42 @@
+html {
+  // overflow-y: scroll;
+
+  font-size: $font-size;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: $font-main;
+  font-size: $font-size;
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  color: $color-primary;
+  transition: color 0.2s;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $color-accent;
+  }
+}
+
+h1 {
+  margin: (-$gap / 2) 0 ($gap * 3);
+
+  font-family: $font-header;
+  font-size: 3rem;
+}
+h2 {
+  margin: ($gap * 4) 0 ($gap * 3) ($gap * 3);
+
+  font-family: $font-header;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: $font-main;
+}
