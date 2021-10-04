@@ -7333,7 +7333,7 @@ input + label .notActive {
   display: flex;
   width: 0%;
   height: 2em;
-  background-image: url(assets/img/starregular_106263.svg);
+  background-image: url(/assets/img/starregular_106263.svg);
   background-size: 2em auto;
 }
 
@@ -7344,7 +7344,7 @@ input + label .notActive {
   position: relative;
   width: 10em;
   height: 2em;
-  background-image: url(assets/img/starlinear_106175.svg);
+  background-image: url(/assets/img/starlinear_106175.svg);
   background-size: 2em auto;
 }
 
@@ -7380,7 +7380,7 @@ input + label .notActive {
   position: relative;
   width: 10em;
   height: 2em;
-  background-image: url(assets/img/starlinear_106175.svg);
+  background-image: url(/assets/img/starlinear_106175.svg);
   background-size: 2em auto;
 }
 
@@ -7402,11 +7402,11 @@ input + label .notActive {
 
 .check-rating__item:checked,
 .check-rating__item:hover {
-  background-image: url(assets/img/starregular_106263.svg);
+  background-image: url(/assets/img/starregular_106263.svg);
 }
 
 .check-rating__item:hover ~ .check-rating__item {
-  background-image: url(assets/img/starlinear_106175.svg);
+  background-image: url(/assets/img/starlinear_106175.svg);
 }
 
 .check-rating__item:nth-of-type(1) {
